@@ -10,6 +10,7 @@ public class MultiplicacionArreglos {
         String izq[] = {"0 |","1 |","2 |"};
         byte tabla1[][] = new byte [3][3];
         byte tabla2[][] = new byte [3][3];
+        short tabla3[][] = new short [3][3];
         byte a,b,c;
         for (a = 0; a < 3; a++){
             for(b = 0; b < 3; b++){
@@ -23,6 +24,7 @@ public class MultiplicacionArreglos {
                        a+","+b));    
             }    
         }
+        
         for (a = 0; a < 3; a++)
             if (a == 0){
                 for (b = 0; b < 3; b++){
