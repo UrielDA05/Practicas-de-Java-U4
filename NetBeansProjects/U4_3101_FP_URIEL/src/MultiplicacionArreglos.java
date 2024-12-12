@@ -24,7 +24,9 @@ public class MultiplicacionArreglos {
                        a+","+b));    
             }    
         }
-        
+        tabla3[0][0] = (short) (tabla1[0][0] * tabla2[2][2]);
+        tabla3[0][1] = (short) (tabla1[0][1] * tabla2[2][1]);
+        tabla3[0][2] = (short) (tabla1[0][2] * tabla2[2][0]);
         for (a = 0; a < 3; a++)
             if (a == 0){
                 for (b = 0; b < 3; b++){
@@ -33,6 +35,9 @@ public class MultiplicacionArreglos {
                 System.out.print("   \t");
                 for (b = 0; b < 3; b++){
                     System.out.print(tabla2[a][b] + "|\t");
+                }
+                for (b = 0; b < 3; b++){
+                    System.out.print(tabla3[a][b] + "|\t");
                 }
                 System.out.println("   ");
             }else if (a == 1){
