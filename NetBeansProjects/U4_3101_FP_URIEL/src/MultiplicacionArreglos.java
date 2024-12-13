@@ -27,10 +27,10 @@ public class MultiplicacionArreglos {
             }    
         }
         for (a = 0; a < 3; a++){
-          
             for (b = 0; b < 4; b++){
-                System.out.printf(sup[b] + "|\t");
+                System.out.print(sup[b] + "|\t");
             }
+        for (a = 0; a < 3; a++){    
             for (b = 0; b < 3; b++){
                 System.out.print(tabla1[a][b] + "|\t");
             }
@@ -46,6 +46,7 @@ public class MultiplicacionArreglos {
             System.out.println("   ");
         }    
     }   
+}
 }
 
 
