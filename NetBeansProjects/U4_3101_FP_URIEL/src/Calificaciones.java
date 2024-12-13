@@ -30,10 +30,7 @@ public class Calificaciones {
             acum += promedio;
             System.out.println(promedio + "\t");
             }
-        promedioFinal = acum/6;
-        System.out.println();
-        System.out.println("Promedio Final: " + promedioFinal);    
-}
+        
 }
      
 
