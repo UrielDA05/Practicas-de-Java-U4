@@ -22,18 +22,7 @@ public class MultiplicacionMatrices {
             }    
         }
    
-        for (byte a = 1; a<3; a++){
-            System.out.println("Tabla " + a);
-            for(x = 0; x <4; x++){
-                System.out.print(sup[x] + "\t");
-         
-                System.out.println();
-                for (x = 0; x < 3; x++){
-                    System.out.print(izq[x] + "\t");
-                    for (y = 0; y < 3; y++){ 
-                    System.out.print(tabla1[x][y] + "\t");
-                    }    
-                    System.out.println();
+       
             }   
             System.out.println();
             System.out.println("Tabla 2");
