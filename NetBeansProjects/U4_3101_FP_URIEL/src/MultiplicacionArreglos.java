@@ -4,7 +4,15 @@ import javax.swing.JOptionPane;
 public class MultiplicacionArreglos {
 
     public static void main(String[] args) {
-        
+        byte tabla1[][] = new byte[3][3];
+        byte tabla2[][] = new byte[3][3];
+        short tabla3[][] = new short[3][3];
+        byte a, b, z;
+        for (a = 0; a < 3; a++) {
+            for (b = 0; b < 3; b++) {
+                tabla1[a][b] = Byte.parseByte(JOptionPane.showInputDialog("Ingresa los numeros de la tabla 1 casilla: "
+                        + a + "," + b));
+            }
         }
         for (a = 0; a < 3; a++) {
             for (b = 0; b < 3; b++) {
